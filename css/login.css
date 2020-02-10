@@ -1,0 +1,91 @@
+.main .imgBg{
+    height: 400px;
+    background-image: url(../img/background_1.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color: #7fca90;
+}
+.loginform .inside{
+    width: 700px;
+    height: 400px;
+    margin: 35px auto;
+    border: 1px green solid;
+}
+.loginform .inside .title{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    color: 	#6A5ACD;
+}
+.loginform .inside #form{
+    color: 	#87CEFA;
+}
+.userdiv,.pwddiv,.div{
+    width: 600px;
+
+    overflow: hidden;
+    margin:15px auto;
+    border-top: 1px dashed #7CFC00;
+    border-bottom: 1px dashed #7CFC00;
+}
+
+#form label{
+    font-size: 27px;
+    padding-left: 30px;
+	vertical-align: bottom;
+
+}
+#form input{
+    font-size: 21px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    padding: 7px 20px;
+    line-height: 24px;
+    color: #48D1CC;
+
+	margin-top: 5px;
+    
+
+}
+#form .div{
+    font-size: 21px;
+    color: #87CEFA;
+    height: 50px;
+}
+#leftdiv{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+#leftdiv span{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#loginbtn{
+    margin-left: 150px;
+    width: 120px;
+    font-size: 22px;
+    background-color: #5cb85c;
+    color: #00A8FF;
+    border: 1px solid #7fca8f;
+    border-radius: 3px;
+}
+#loginbtn:hover{
+    background-color: #7CFC00;
+}
+#hidelogindiv{
+    display: none;
+    position: fixed;
+    right: 70px;
+    top: 300px;
+    z-index: 999;
+    font-size: 28px;
+    color: #6A5ACD;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #0f3e68;
+    background: #00CED1;
+
+}

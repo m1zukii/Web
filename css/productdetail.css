@@ -1,0 +1,218 @@
+.main .imgBg {
+    height: 400px;
+    background-image: url("../img/background_6.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #7fca90;
+}
+.title .container {
+    text-align: center;
+    font-size: 38px;
+    color: #4169E1;
+    font-weight: 700;
+}
+.detail {
+    height: 600px;
+}
+.detail .leftimg {
+    /*float: left;*/
+    width: 500px;
+    height: 480px;
+    border: 3px solid #5fbd74;
+}
+.detail .leftimg img {
+    width: 500px;
+    height: 480px;
+}
+.detail .proDetail {
+    float: left;
+    width: calc(100% - 570px);
+    margin-left: 60px;
+    margin-top: 40px ;
+    border: 1px dashed #1E90FF;
+}
+.proDetail .inside {
+    margin: 10px 20px;
+}
+.proDetail .inside>div{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed #0000FF;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#proName {
+    font-size: 35px;
+    color: #6A5ACD;
+    padding: 5px 15px;
+    /*border: 1px #00A8FF dashed;*/
+    margin-bottom: 15px;
+    display: inline-block;
+}
+#proCategory {
+    font-size: 28px;
+    color: #1E90FF;
+    padding: 5px 15px;
+    /*border: 1px #00BFFF dashed;*/
+    display: inline-block;
+}
+#proPrice {
+    font-size: 25px;
+    color: #1E90FF;
+    padding: 5px 15px;
+    /*border: 1px #00BFFF dashed;*/
+    display: inline-block;
+}
+#proNumber {
+    font-size: 24px;
+    color: #31b0d5;
+    padding: 5px 15px;
+    display: inline-block;
+}
+ion-icon {
+    font-size: 35px;
+    color: #00FFFF;
+}
+#proIntro {
+    font-size: 28px;
+    color: #4169E1;
+    padding-left: 15px;
+}
+#proIntro div.intro{
+	margin-top: 7px;
+	padding-left: 4px;
+	padding-right: 5px;
+}
+#proIntro span {
+    font-size: 22px;
+    color: #6495ED;
+    padding-top: 6px;
+    
+}
+.addCart{
+    /*margin: 25px 15px;*/
+    width: 500px;
+    height: 85px;
+}
+.quantity{
+    width: 280px;
+    margin: 25px 10px 10px;
+    overflow: hidden;
+}
+.minus{
+    width: 70px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #7FFFD4;
+    text-align: center;
+    font-size: 30px;
+    color: #5cb85c;
+    background-color:#fff;
+    padding-top: 10px;
+}
+.minus:hover,.add:hover{
+    color: #fff;
+    background-color:#5cb85c ;
+    transform: scale(1.2);
+}
+.add{
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    border: 1px solid #7FFFD4;
+    text-align: center;
+    font-size: 30px;
+    color: #5cb85c;
+    background-color:#fff;
+       padding-top: 10px;
+}
+#proQuantity{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    padding-top: 10px;
+    border: 1px solid #7FFFD4;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #7CFC00;
+}
+.addtocart{
+    margin-top: 25px;
+}
+#addbtn{
+    width: 180px;
+    height: 60px;
+    background-color: #00A0D1;
+    color: #4169E1;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px dashed #00BFFF;
+    margin-top: 5px;
+}
+#addbtn:hover{
+    color: #00CED1;
+    background-color: #1E90FF;
+}
+.review{
+    margin-top: 40px;
+
+}
+.review .title{
+    font-size: 28px;
+    text-align: center;
+    color: #00BFFF;
+    border-bottom: 2px dashed darkblue;
+    border-top: 2px dashed darkblue;
+}
+.outside{
+    width: 800px;
+    margin: 0 auto;
+    border-left: 2px dashed #1E90FF;
+    border-right: 2px dashed #1E90FF;
+}
+.replydiv{
+    margin: 15px auto;
+    width: 600px;
+    height: auto;
+
+}
+.reply{
+    margin-top: 15px;
+    border: 2px dashed #1E90FF;
+    overflow: hidden;
+}
+.reply .img{
+    width: 105px;
+    height: 105px;
+    float: left;
+}
+.reply .customer{
+    font-size: 28px;
+    color: #6495ED;
+    padding: 5px 15px;
+}
+.clear .command{
+    padding: 4px 6px;
+    color: #6A5ACD;
+    font-size: 18px;
+}
+#hidesuccess{
+    position: fixed;
+    right: -250px;
+    bottom: 400px;
+    width: 250px;
+    z-index: 999;
+    background: #5bc0de;
+    color: #4169E1;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 8px;
+    /*display: none;*/
+
+}
+#hidesuccess div{
+    color: #4169E1;
+    font-size: 24px;
+    display: inline-block;
+}

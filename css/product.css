@@ -1,0 +1,115 @@
+.main .imgBg{
+    height: 400px;
+    background-image: url("../img/background_5.jpg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color: #7fca90;
+}
+.showproduct .title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #4169E1;
+    text-align: center;
+    border-bottom: 1px darkcyan solid;
+}
+.filter{
+    margin-top: 40px;
+    height: 70px;
+}
+.filter .insidecontainer{
+    width: 800px;
+    margin: 0 auto;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter span{
+    font-size: 25px;
+    color: #00A8FF;
+}
+.filter span:hover{
+    color: #00A0D1;
+    transform: scale(1.2);
+    font-weight: 800;
+}
+.filter span.choose{
+    color: #00A0D1;
+    transform: scale(1.2);
+    font-weight: 800;
+    border-bottom: 3px darkblue solid;
+}
+.productlist{
+	height: auto;
+}
+.product{
+    width: 320px;
+    border: 1px #00FFFF dashed;
+    margin-left: 40px;
+    margin-right: 25px;
+    margin-top: 60px;
+    position: relative;
+
+}
+.product:hover{
+    transform: scale(1.2);
+    border: 1px solid #4169E1;
+}
+.product .img img.cart{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top:270px;
+    border: 1px solid #00CED1;
+    display: none;
+}
+
+.product .img img{
+    width: 320px;
+    height: 300px;
+}
+.product .detail{
+    background: #7FFFD4;
+    height: 80px;
+}
+.product .detail .name{
+    text-align: center;
+    font-size: 24px;
+    color: #00A8FF;
+    height: 40px;
+    padding-top: 4px;
+}
+.product .detail .price{
+    text-align: center;
+    font-size: 24px;
+    color:#4cae4c;
+    height: 40px;
+    padding-top: 4px;
+}
+.product .detail .price del{
+    font-size: 22px;
+    color: #7fca90;
+}
+.product .detail .price ins{
+    font-size: 20px;
+    color:#4cae4c;
+}
+#hidesuccess{
+    position: fixed;
+    right: -250px;
+    bottom: 400px;
+    width: 250px;
+    z-index: 999;
+    background: #5bc0de;
+    color: #4169E1;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 8px;
+    /*display: none;*/
+
+}
+#hidesuccess div{
+    color: #4169E1;
+    font-size: 24px;
+    display: inline-block;
+}

@@ -1,0 +1,79 @@
+.main .imgBg{
+    height: 400px;
+    background-image: url(../img/background_9.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: #7fca90;
+}
+.history .img{
+    width: 1000px;
+    height:470px ;
+    margin: 0 auto;
+}
+.history .img img{
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #00CED1;
+}
+.co{
+    background: url("../img/slider.png");
+    height: 700px;
+}
+.history .title{
+    font-size: 36px;
+    color: #00A8FF;
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: 3px dashed #6A5ACD;
+}
+.history .hi{
+    width: 600px;
+    margin: 50px auto;
+    color: #00A0D1;
+    font-size: 22px;
+}
+.team{
+    margin-top: 50px;
+    background: url("../img/aa.jpg");
+    height: 640px;
+}
+.peopleDIV{
+    width: 930px;
+    margin: 0 auto;
+}
+.people{
+    width: 300px;
+    float: left;
+    height: 540px;
+    border: 1px solid #1E90FF;
+    margin-right: 8px;
+}
+.people .detail{
+    font-size: 14px;
+}
+.contactDiv{
+    height: 400px;
+    margin-top: 40px;
+}
+.contactDiv .title{
+    text-align: center;
+    font-size: 32px;
+    color: #5bc0de;
+    border-bottom: 3px solid #0f3e68;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.contactDiv .con .contact .img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.contact .info{
+    text-align: center;
+    color: #00A8FF;
+    font-size: 24px;
+}

@@ -1,0 +1,125 @@
+.main .imgBg {
+    height: 400px;
+    background-image: url("../img/background_8.jpg");
+    /*background-position: bottom;*/
+    background-repeat: no-repeat;
+    background-color: #7fca90;
+}
+.main{
+    height: 2000px;
+}
+.cartlist .title{
+    font-size: 45px;
+    color: #0f3e68;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px dashed #4cae4c;
+    border-top: 3px dashed #4cae4c;
+    margin-top: 15px;
+}
+.cart{
+    width: 800px;
+    margin: 15px auto;
+    border: 1px solid #204d74;
+    overflow: hidden;
+}
+.cart .name{
+    width: 400px;
+    text-align: center;
+}
+.cart .total{
+    width: 398px;
+    text-align: center;
+    border-left: 2px solid #1E90FF;
+}
+.cart .head .name,.cart .head .total{
+    font-size: 38px;
+    color: #4169E1;
+    border-bottom: 2px solid #00CED1;
+}
+.cart .data .name,.cart .data .total{
+    font-size: 35px;
+    color: #1E90FF;
+    border-bottom: 2px solid #00BFFF;
+}
+.cart .all .name,.cart .all .total{
+    font-size: 32px;
+    color: #6A5ACD;
+    border-bottom: 2px solid #6495ED;
+}
+.receive .title{
+    font-size: 32px;
+    color: #00A8FF;
+    text-align: center;
+    border-bottom: 3px dashed #5fbd74;
+    border-top: 3px dashed #5fbd74;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.receive .ll{
+    font-size: 18px;
+    color: #00CED1;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.receive .ll a:hover{
+    color: #4169E1;
+}
+.info{
+    width: 700px;
+    margin: 40px auto;
+    overflow: hidden;
+    border: 1px green solid;
+    /*margin: 15px 30px;*/
+}
+.info div{
+	margin: 10px 0;
+}
+.info .label {
+    text-align: center;
+    font-size: 30px;
+    color: #1E90FF;
+    margin: 7px 0;
+}
+.info .input{
+    width: 400px;
+    margin: 7px auto;
+    border: 2px darkblue solid;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 27px;
+     
+}
+.info .pay{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px;
+    font-size: 21px;
+    color: #00CED1;
+}
+.info .pay input{
+    height: 45px;
+}
+.submit{
+
+    width: 250px;
+    margin: 50px auto 0;
+}
+#submit{
+    width: 200px;
+    height: 50px;
+    background: #5bc0de;
+    color: #4169E1;
+    font-size: 32px;
+    border: 1px solid #204d74;
+    border-radius: 7px;
+}
+#submit:hover{
+    transform: scale(1.2);
+    color: #6495ED;
+    background-color: #6A5ACD;
+}

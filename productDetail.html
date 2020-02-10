@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/productdetail.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/productdetail.js"></script>
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+</head>
+<body>
+<div class="site">
+    <div class="topbar">
+        <div class="container">
+            <div class="col-5 left">工作时间:周一-周五:8AM-6PM&nbsp;&nbsp;|周六-周日:9AM-5PM</div>
+            <div class="col-5 right">
+                <span class="hover language">语言</span>&nbsp;&nbsp;|
+                <ul class="PopUpLanguage">
+                    <li class="hover">中文</li>
+                    <li class="hover">English</li>
+                    <li class="hover">Korean</li>
+                    <li class="hover">German</li>
+                </ul>
+                <a href="login.html" id="topbarlogin">登录</a>&nbsp;&nbsp;|
+                <p id="popupLogin">登出</p>
+                <a href="register.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="logo col-3 left">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="navigation col-9 right">
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <a href="index.html">主页</a>
+                        </li>
+                        <li>
+                            <a href="product.html">商品列表</a>
+                        </li>
+                        <!--<li>-->
+                        <!--<a href="productDetail.html">商品详情</a>-->
+                        <!--</li>-->
+                        <li>
+                            <a href="cart.html">购物车</a>
+                        </li>
+                        <li>
+                            <a href="checkout.html">结算</a>
+                        </li>
+                        <li>
+                            <a href="aboutus.html">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">博客</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main clear">
+        <div class="imgBg">
+            <div class="container">
+                <div class="pageTitle">
+                    Product Detail
+                </div>
+            </div>
+        </div>
+        <div class="location">
+            <div class="container">
+                位置:
+                <ul>
+                    <li>&nbsp;&nbsp;
+                        <a href="index.html">主页</a>
+                        &nbsp;&nbsp;
+                    </li>
+                </ul>
+                <ul>
+                    <li>/&nbsp;&nbsp;
+                        <a href="#">商品详情</a>
+                        &nbsp;&nbsp;
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="title">
+            <div class="container">
+                商品详情
+            </div>
+        </div>
+        <div class="detail">
+            <div class="container">
+                <div class="left">
+                    <div class="leftimg">
+                        <img src="img/juice/lizhi.jpg" alt="" id="productPic">
+                    </div>
+                    <div class="addCart">
+                        <div class="quantity left">
+                            <div class="minus">-</div>
+                            <div id="proQuantity">1</div>
+                            <div class="add">+</div>
+                        </div>
+                        <div class="addtocart left">
+                            <input type="button" id="addbtn" value="添加到购物车">
+                        </div>
+                    </div>
+                </div>
+                <div class="proDetail">
+                    <div class="inside">
+                        <div>
+                            <div id="proName">商品名称:梨汁</div>
+                        </div>
+                        <div>
+                            <div id="proCategory">商品种类:果汁</div>
+                            <div id="proPrice">商品单价:8￥</div>
+                        </div>
+                        <div>
+                            <div id="proNumber">商品评分:
+                                <ion-icon name="star" class="icon1"></ion-icon>
+                                <ion-icon name="star" class="icon1"></ion-icon>
+                                <ion-icon name="star" class="icon1"></ion-icon>
+                                <ion-icon name="star" class="icon1"></ion-icon>
+                                <ion-icon name="star" class="icon1"></ion-icon>
+                                <ion-icon name="star-outline" class="icon2"></ion-icon>
+                                <ion-icon name="star-outline" class="icon2"></ion-icon>
+                                <ion-icon name="star-outline" class="icon2"></ion-icon>
+                                <ion-icon name="star-outline" class="icon2"></ion-icon>
+                                <ion-icon name="star-outline" class="icon2"></ion-icon>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="proIntro">
+                                商品介绍:
+                                <div class="intro">
+                                    <span class="proname">梨汁</span>
+                                    <span class="prointro">不仅富含维生素A,维生素B,维生素C,维生素D1,维生素F,
+                                        维生素Z,矿物质，微量元素碘，锌，铁，更含有丰富的糖分和蛋白质成分 <br>
+                                        对人体可以提高免疫力，增强体质，预防多种疾病,加快新陈代谢速度，为人体提供充足的能量，强化身体的筋骨韧性，
+                                        减低血压，降低患癌症的概率.
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="clear"></div>
+
+        </div>
+        <div class="review">
+            <div class="container">
+                <div class="title">
+                    商品评价
+                </div>
+                <div class="outside">
+                    <div class="replydiv">
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                梁三 <br> 2019年1月5日
+                            </div>
+                            <div class="clear">
+                                <div class="command">我已经买了这个 <span class="ppname"></span>5箱了，每一箱都很好吃，
+                                    快递配送非常快，两天不到就到我家了。产品质量很好，到我家时还是冷包装的，很新鲜。
+                                    吃起来口感很好，可谓是价美物廉啊，大家多点买啊，买不了吃亏啊。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                李四 <br> 2019年4月24日
+                            </div>
+                            <div class="clear">
+                                <div class="command">不是水军，不是水军，不是水军。真的超级喜欢，非常支持，
+                                    <span class="ppname"></span>质量非常好，与卖家描述的完全一致，非常满意,真的很喜欢，
+                                    完全超出期望值，发货速度非常快，
+                                    包装非常仔细、严实，物流公司服务态度很好，
+                                    运送速度很快，很满意的一次购物
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                赵五 <br> 2018年11月26日
+                            </div>
+                            <div class="clear">
+                                <div class="command">终于收到我需要的宝贝了，<span class="ppname"></span>
+                                    东西很好，价美物廉，谢谢掌柜的！说实在，
+                                    这是我网上购物来让我最满意的一次购物。
+                                    无论是掌柜的态度还是对物品，我都非常满意的。
+                                    掌柜态度很专业热情，有问必答，回复也很快，我问了不少问题，
+                                    他都不觉得烦，都会认真回答我，这点我向掌柜表示由衷的敬意，这
+                                    样的好掌柜可不多。再说宝贝，正是我需要的，收到的时候包装完整，
+                                    打开后让我惊喜的是，宝贝比我想象中的还要好！不得不得竖起大拇指。
+                                    下次需要的时候我还会再来的，到时候麻烦掌柜给个优惠哦！
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                朱八 <br> 2017年10月15日
+                            </div>
+                            <div class="clear">
+                                <div class="command">唯此店这宝物与众皆不同, 为出淤泥之清莲。
+                                    使吾为之动容，心驰神往。乃至饭不能食,
+                                    寝则不安，辗转反侧无法忘怀。
+                                    于是乎紧衣缩食, 凑齐银两，倾吾所能而买
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                刘八 <br> 2017年4月23日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    04.23
+                                    第二次购买了，分量足，还好吃，<span class="ppname"></span>味正，
+                                    做工干净，卫生，大人小孩儿都爱吃，好吃，
+                                    好吃！小孩一点一点吃也可以嚼动，而且孩子还说真的是很好吃，
+                                    吃完就冲我要，哈哈，真心觉得是很不错的哦，而且包装还很严实，
+                                    非常正规干净！！独立包装，
+                                    每次都是买原味的，送亲戚朋友也不错。吃货必备，
+                                    饿了吃几个补充体力最好的选择！！
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                司马九 <br> 2016年11月23日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    <span class="ppname"></span>
+                                    确实很新鲜,口感也不错，
+                                    开始是抱着试试看的态度买的，所以买的也不多，
+                                    而且网上这个价格还是很划算的。经济实惠，物流很快呢！包装很好，
+                                    到家就切开来吃，哈密瓜皮薄肉厚，脆甜爽口，味道很好，
+                                    水份充足，很甜！很不错哦！
+                                    没想到在网上买的水果也这么好，这么新鲜，
+                                    客服态度也还不错，很热情的
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                李易峰 <br> 2017年12月21日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    <span class="ppname"></span>已经收到了，打开之后满满的惊喜，
+                                    包装的很好，皮薄多汁，个头均匀，饱满，无坏果。不像以往网购的那些都不好，果子非常新鲜！
+                                    比超市实惠很多。比之前买的真的要好吃很多，
+                                    感谢卖家
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                杨幂 <br> 2017年6月8日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    <span class="ppname"></span>很好，甜甜的，一点也不酸，
+                                    皮特别薄软，咬起来很好的口感，特别好 朋友介绍的这家店铺，
+                                    一次购买了几种水果，收到货，检查了一下，包装完好，没有坏果，
+                                    很新鲜，最重要是价格实惠，口感很好，新鲜，没有一个坏的，
+                                    很满意很满意，口感也好，赞赞赞 口感好 这个价格真的划算 比超市便宜多了
+                                    很满意，包装完整，都很新鲜里边没有坏的，
+                                    多汁酸酸甜甜的挺好吃，个头也不小，还会回购的
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                王思聪 <br> 2017年10月12日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    连箱子毛重5.6斤左右，一共12个，
+                                    大小差异还是挺大的，不过每个看起来都熟透了红彤彤的。
+                                    不是很酸，<span class="ppname"></span>味儿很正，跟小时候田里自己家种的味道似的。
+                                    拿来当水果啃挺好的，就是要小心汁水溅到衣服上。刚吃了俩小的了，
+                                    还挺好吃的，虽然吃不出来甜味，但汁水粘在手上感觉还是粘粘的。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                刘亦菲 <br> 2017年2月18日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    路上几天，收到<span class="ppname"></span>都是红红的，刚好熟。
+                                    立刻品尝了一个，沙瓤，小时候的味道，好吃极了，
+                                    甩超市里淡而无味的几条街。会继续回购的，
+                                    减肥就靠它了。小的熟的上图，大的不太熟的放冰箱了。我不是托……
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                杨颖 <br> 2017年1月24日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    我吃完了。这个<span class="ppname"></span>太好了，收到的时候最满意的就是新鲜，
+                                    到货很快，瓜的纹路很清晰，看着就差不多熟了，
+                                    客服还说放几天吃会更好吃一点，我们家哪里管那么多，
+                                    吃就完了。味道很好，很甜，口感爽脆，很满意。口感真的很好，
+                                    很新鲜，我们学校都没有这个水果卖，真的买的挺划算的，
+                                    一般也很少有时间出去买东西，
+                                    水果之类的都是在学校的水果店买的，
+                                    这个哈蜜瓜的价格其实已经算是很便宜了，我们这贵多了
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                王菲 <br> 2017年7月29日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    包装十分仔细，没有磕碰.首先份量很足，<span class="ppname"></span>个个都很饱满，
+                                    它家的口感很好，很甜，忍不住想多吃，这次买的是，
+                                    非常棒的水果，
+                                    在我们那超市根本买不到这么小这么好吃的<span class="ppname"></span>，
+                                    很感谢卖家，让我吃到这么好吃的<span class="ppname"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                谢霆锋 <br> 2018年8月24日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    收货目测：足足11个<span class="ppname"></span>，每一根都用保鲜膜独立包装好，云南到江苏有了好几天，目测一个没坏！
+                                    试吃测评：煮了两个，颗粒饱满，一口下去爆浆，
+                                    鲜甜无比！ 第二次在他家买东西，两次体验都很好，
+                                    物美价廉！会继续支持！ 店家加油！
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                二珂 <br> 2015年1月6日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    包装特别，特别，特别好。重要的事要说三次。
+                                    外面包了一保温袋，里面一个保温箱，保温箱里两个真空袋，
+                                    真空袋里有纸盒，纸盒里还有网袋。这样层层包裹<span class="ppname"></span>只有六个碰伤，
+                                    其余完美无缺。<span class="ppname"></span>口感酸甜比超市的好吃也便宜，
+                                    吃完这箱还会回购。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply  clear">
+                            <div class="img">
+                                <img src="img/reply.png" alt="" width="100" height="100">
+                            </div>
+                            <div class="customer">
+                                阿冷 <br> 2017年4月6日
+                            </div>
+                            <div class="clear">
+                                <div class="command">
+                                    心心念念期待的<span class="ppname"></span>终于到了，拆一步就拍一部照片哈哈，
+                                    一开始以为<span class="ppname"></span>会有一点损坏的，
+                                    然后打开之后发现包装特别好都很新鲜看起来非常棒，
+                                    马上洗了几个之后吃了一下味道也很不错，真的超级棒啊哈哈哈
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer clear">
+        <div class="container clear">
+            <div class="col-4 left">
+                <img src="img/footer_logo.png" alt="">
+                <p>欢迎光临Organik Food商店，本商店的所有产品均为有机食品，天然培育，纯天然，无农药，无污染，使用天然肥料精心栽培,为顾客提供安全无害的食品。</p>
+            </div>
+            <div class="col-2 left">
+                <div class="information">
+                    <div class="title">
+                        信息
+                    </div>
+                    <div class="detail">
+                        <p><a href="#">新产品</a></p>
+                        <p><a href="#">畅销品</a></p>
+                        <p><a href="#">博客</a></p>
+                        <p><a href="#">农场</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 left">
+                <div class="link">
+                    <div class="title">
+                        相关链接
+                    </div>
+                    <div class="detail">
+                        <p><a href="#">我们的团队</a></p>
+                        <p><a href="#">联系我们</a></p>
+                        <p><a href="#">社交媒体</a></p>
+                        <p><a href="#">常见问题</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 left">
+                <div class="subsrcibe">
+                    <div class="title">
+                        订阅
+                    </div>
+                    <div class="detail">
+                        <p>输入你的电子邮件地址来获得我们的最新消息和动态</p>
+                        <div class="sub">
+                            <input type="email" id="subemail" size="20" placeholder="请输入电子邮件">
+                            <input type="button" id="subbtn" value="订阅">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright clear">
+        <div class="container">
+            <div class="col-8 left">
+                Copyright © 2017.Organik Food All rights reserved.
+            </div>
+            <div class="col-6 left">
+                <img src="img/footer_payment.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="hidesuccess">
+        <div></div>成功添加到购物车
+    </div>
+</div>
+</body>
+</html>

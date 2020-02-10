@@ -1,0 +1,91 @@
+.main .imgBg{
+    height: 400px;
+    background-image: url(../img/background_3.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color: #7fca90;
+}
+.registerForm{
+}
+.registerForm .insideContainer{
+    margin: 15px auto;
+    height: 950px;
+}
+.registerForm .title{
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 20px;
+	text-align: center;
+    border-bottom: 2px dashed green;
+}
+#form .col-5 {
+    margin-top: 30px;
+}
+#form .col-5 div label{
+    margin-left: 50px;
+    font-size: 25px;
+}
+#form .col-5 div input{
+    margin-left: 50px;
+    font-size: 21px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    padding: 7px 7px;
+    /*line-height: 24px;*/
+    margin-top: 7px;
+    color:#48D1CC;
+}
+.required{
+    color: #DC143C;
+    font-size: 26px;
+}
+
+#form .col-5 div.sexDiv{
+    font-size: 22px;
+    height: 40px;
+}
+#form .col-5 select{
+    margin-left: 50px;
+    color:#48D1CC;
+    width: 462px;
+    height: 40px;
+    font-size: 21px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    padding: 2px 7px;
+}
+select option{
+    padding-left: 25px;
+}
+#form .col-1{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#form .col-1 label{
+    font-size: 25px;
+}
+#form .col-1 input{
+    font-size: 21px;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    padding: 7px 7px;
+    color:#48D1CC;
+}
+#form input#submit{
+    border: 1px solid #00FFFF;
+    border-radius: 15px;
+    background: #87CEFA;
+    color: #00BFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 480px;
+    margin-top: 50px;
+    width: 150px;
+    transition: all .5s;
+    height: 40px;
+}
+#form input#submit:hover{
+    cursor: pointer;
+    background: #4169E1;
+    transform: scale(1.3);
+}
